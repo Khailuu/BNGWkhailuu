@@ -1369,7 +1369,7 @@ footer .link .link-right  a {
 /* Tu bi ko tinh yeu  */
 
 
-@media (max-width:768px) {
+@media (max-width:320px) {
   .header-top {
     display: none;
   }
