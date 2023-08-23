@@ -1487,8 +1487,7 @@ footer .link .link-right a {
     transition: all 0.5s;
   }
   .started .row-bottom {
-    display: flex;
-    justify-content: space-between;
+
     margin-top: 50px;
     margin-bottom: 80px;
   }
@@ -1735,8 +1734,7 @@ footer .link .link-right a {
     transition: all 0.5s;
   }
   .started .row-bottom {
-    display: flex;
-    justify-content: space-between;
+   
     margin-top: 50px;
     margin-bottom: 80px;
   }
