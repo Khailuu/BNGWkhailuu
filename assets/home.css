@@ -1525,7 +1525,7 @@ footer .link .link-right a {
     border-radius: 50%;
   }
   .choice .content {
-    padding-left: 50vw;
+    padding-left: 25vw;
   }
 
   .choice .item-respon {
@@ -1568,7 +1568,7 @@ footer .link .link-right a {
 
   footer .container .sub {
     flex-direction: column;
-    /* width: 100vw; */
+    width: 100vw; 
   }
   footer .container .sub h4 {
     font-size: 19px;
