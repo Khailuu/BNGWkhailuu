@@ -554,5 +554,22 @@
        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
      }
    </script>
+     <!-- click button menu  -->
+     <script>
+      var menu = document.getElementById('menu');
+      // console.log(menu); 
+      var btnMenu = document.getElementById('btn-menu');
+      btnMenu.onclick = function() {
+        if(menu.style.display == 'none'){
+        menu.style.display = 'block';
+        menu.style.transition = '1s';
+        } else {
+          menu.style.display ='none';
+        menu.style.transition = '0.5s';
+
+        }
+      }
+      
+    </script>
 </body>
 </html>
