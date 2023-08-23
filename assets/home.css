@@ -1372,17 +1372,20 @@ footer .link .link-right a {
   .header-bottom .info-right ul {
     /* display: none; */
     position: absolute;
-    display: inline-block;
-    right: 0;
+    display: block;
+    right: -70px;
     background-color: #fff;
     border-radius: 5px;
-    width: 150px;
+    width: 100vw;
     border: 1px solid #707070;
+    margin-top: 10px;
     display: none;
   }
   .header-bottom .info-right ul a {
-    float: right;
-    padding: 5px 10px;
+    float: left;
+    padding: 10px 10px;
+    display: block;
+    width: 100vw;
   }
   .slide {
     background-size: cover;
@@ -1425,8 +1428,8 @@ footer .link .link-right a {
   .studious .container .info-respon {
     display: none;
   }
-  .started .container .col{
-    flex: 0 0  50%;
+  .started .container .col {
+    flex: 0 0 50%;
     max-width: 50%;
   }
   .studious p {
@@ -1475,7 +1478,8 @@ footer .link .link-right a {
   }
   .number .main .item:last-child {
     padding-right: 0;
-  } 
+    padding-right: 30px;
+  }
   .number .main .item {
     border-right: none;
   }
@@ -1501,7 +1505,7 @@ footer .link .link-right a {
 
   footer .container .sub {
     flex-direction: column;
-    width: 100vw; 
+    width: 100vw;
   }
   footer .container .sub h4 {
     font-size: 19px;
@@ -1523,8 +1527,9 @@ footer .link .link-right a {
     margin-top: 20px;
     border-radius: 10px;
     margin-left: 3px;
-  
-
+  }
+  footer .link {
+    padding-top: 20px;
   }
   footer .link .link-left,
   footer .link {
@@ -1674,7 +1679,6 @@ footer .link .link-right a {
     transition: all 0.5s;
   }
   .started .row-bottom {
-   
     margin-top: 50px;
     margin-bottom: 80px;
   }
@@ -1726,7 +1730,7 @@ footer .link .link-right a {
   }
   .number .main .item:last-child {
     padding-right: 0;
-  } 
+  }
   .number .main .item {
     border-right: none;
   }
@@ -1790,13 +1794,13 @@ footer .link .link-right a {
     position: fixed;
     padding: 0;
   }
-  header .theme{
+  header .theme {
     display: none;
   }
-  header .theme-repon{
+  header .theme-repon {
     display: block;
   }
-  header .logo{
+  header .logo {
     flex: 0 0 80%;
   }
   .header-fix .header-right {
@@ -1806,7 +1810,6 @@ footer .link .link-right a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
   }
   nav {
     width: 100%;
@@ -1840,8 +1843,7 @@ footer .link .link-right a {
   .card .container .content .item a {
     font-size: 30px;
   }
- 
-  
+
   .started .container .title h3 {
     font-size: 50px;
   }
@@ -1849,12 +1851,10 @@ footer .link .link-right a {
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .started .container .row-up{
+  .started .container .row-up {
     flex: 0 0 100%;
     max-width: 100%;
     flex-direction: column;
-    
-
   }
   .started .container .row-bottom {
     display: none;
@@ -1904,17 +1904,15 @@ footer .link .link-right a {
     flex: 0 0 100%;
     margin: 10px 0;
   }
-
 }
-@media screen and (min-width:577px) and (max-width:767px) {
-
+@media screen and (min-width: 577px) and (max-width: 767px) {
   .started .container .title h3 {
     font-size: 50px;
   }
   .started .container .row-up .item {
     margin-bottom: 20px;
   }
-  .started .container .row-up{
+  .started .container .row-up {
     flex: 0 0 100%;
     max-width: 100%;
     flex-direction: column;
