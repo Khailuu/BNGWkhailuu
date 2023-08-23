@@ -1430,7 +1430,7 @@ footer .link .link-right a {
   }
   .started .row-up,
   .started .row-bottom {
-    margin-left: 40px;
+    margin-left: 0 auto;
   }
 
   .started .row-bottom .item-up p {
