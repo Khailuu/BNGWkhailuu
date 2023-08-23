@@ -1556,6 +1556,37 @@ footer .link .link-right  a {
   .instructors .row {
     margin-right: 15px;
   }
+
+footer  .container .sub {
+  flex-direction: column;
+  width: 100vw;
+}
+footer .container .sub h4 {
+  font-size: 20px;
+  text-align: center;
+}
+footer .container .sub p {
+  text-align: center;
+}
+footer .container input {
+  border-radius: 10px;
+}
+footer .container .sub-right button {
+  transform: translateX(25vw);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+footer .link .link-left,
+footer .link {
+  flex-direction: column;
+}
+footer .link .link-right{
+  padding-left:  0;
+}
+#myBtn {
+  right: 40px;
+}
+  
 }
 /* tu bi ko tinh yeu  */
 /* tu bi ko tinh yeu  */
