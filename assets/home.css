@@ -1503,4 +1503,307 @@ footer .link .link-right  a {
   .started .item-respon-phone{
     display: none;
   }
+
+  .choice .item {
+    width: 200px;
+    height: 160px;
+  }
+  .choice .item h5 {
+    font-size: 16px;
+  }
+  .choice .item .main p {
+    font-size: 15px;
+  }
+  .choice .item .main {
+    padding-left: 0;
+  }
+  .choice .item {
+    display: block;
+    text-align: center;
+  }
+  .choice .item .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    border-radius: 50%;
+    
+  }
+  .choice .content {
+    padding-left: 50vw;
+  }
+  
+  .choice .item-respon{
+    display:none;
+  }
+  .number {
+    margin-left: 20px;
+  }
+  .number .item h4 {
+    font-size: 30px;
+  }
+  .number .item p {
+    font-size: 12px;
+  }
+  .number .main .item {
+    border-right: none;
+  }
+  .instructors .col {
+    flex: 0 0 100%;
+    margin-right: 20px;
+  }
+  .instructors .row {
+    margin-right: 15px;
+  }
 }
+/* tu bi ko tinh yeu  */
+/* tu bi ko tinh yeu  */
+/* tu bi ko tinh yeu  */
+/* tu bi ko tinh yeu  */
+/* tu bi ko tinh yeu  */
+/* for iphone 11  */
+@media only screen 
+    and (width: 414px) 
+    and (height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+      .header-top {
+        display: none;
+      }
+    
+      .header-bottom .fa-bars {
+        display: block;
+        position: relative;
+        font-size: 30px;
+        transform: translateY(-20%);
+        border: 1px solid #707070;
+        padding: 5px 8px;
+        border-radius: 5px;
+      }
+      .header-bottom .info-right ul {
+        /* display: none; */
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        background-color: #fff;
+        border-radius: 5px;
+        width: 150px;
+        border: 1px solid #707070;
+        display: none;
+      }
+      .header-bottom .info-right ul a {
+        float: right;
+        padding: 5px 10px;
+      }
+      .slide{ 
+        background-size: cover;
+        width: 100vw;
+        background-position: center center;
+        height: 300px;
+      }
+    
+      .slide-content {
+        width: 700px;
+        position: relative;
+        top: 25%;
+        padding-left: 20px;
+        /* font-size: 20px; */
+        display: none;
+      }
+      .card .container {
+        flex-direction: column;
+        margin-top: 20px;
+        padding-left: 0;
+        /* margin-right:22px; */
+      }
+      .card .item .item1 {
+    
+      }
+      .card .item {
+        width: 150px;
+        height: 150px;
+        padding: 30px 2px;
+        width: 90vw;
+        margin-bottom: 15px;
+        margin-left: 5vw;
+      }
+      .card .item .fa,
+      .card .item .fa-solid  {
+        font-size: 40px;
+      
+      }
+      .card .item h5 {
+        font-size: 20px;
+      }
+      .studious .container .info-respon {
+        display: none;
+      }
+      .started .item-respon {
+        display: none;
+      }
+      .started .row-up,
+      .started .row-bottom {
+        margin-left: 18px;
+      }
+      
+    
+      .started .row-bottom .item-up p {
+        color: #fff;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 16px;
+        padding: 5px 7px;
+        border-radius: 5px;
+      }
+      .started .row-bottom .item-up p:first-child {
+        background-color: #ffa100;
+      }
+      .started .row-bottom .item-up p:last-child {
+        background-color: #1dc295;
+      }
+      .started .button {
+        text-align: center;
+        margin-bottom: 80px;
+        
+      }
+      .started .button button:hover {
+        background-color: #0d369f;
+        transition: 0.5s;
+      }
+      .started .button button {
+        background-color: #ff6e65;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+      }
+    
+      .started .row-up .item-up p:first-child {
+        background-color: #ffa100;
+      }
+      .started .row-up .item-up p:last-child {
+        background-color: #1dc295;
+      }
+    
+    
+      
+    
+      .started .item-footer .fa-star {
+        color: #ffc949;
+      }
+      .started .item-footer a {
+        color: #ff6e65;
+        transition: all 0.5s;
+        margin-right: 10px;
+      }
+      .started .item-footer a:hover {
+        text-decoration: none;
+        color: #0d369f; 
+        transition: all 0.5s;
+      }
+      .started .row-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 80px;
+      }
+  
+      .started .item-respon-phone{
+        display: none;
+      }
+    
+      .choice .item {
+        width: 200px;
+        height: 160px;
+      }
+      .choice .item h5 {
+        font-size: 16px;
+      }
+      .choice .item .main p {
+        font-size: 15px;
+      }
+      .choice .item .main {
+        padding-left: 0;
+      }
+      .choice .item {
+        display: block;
+        text-align: center;
+      }
+      .choice .item .icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        display: inline-block;
+        border-radius: 50%;
+        
+      }
+      .choice .content {
+        padding-left: 50vw;
+      }
+      
+      .choice .item-respon{
+        display:none;
+      }
+      .number {
+        margin-left: 20px;
+      }
+      .number .item h4 {
+        font-size: 30px;
+      }
+      .number .item p {
+        font-size: 12px;
+      }
+      .number .main .item {
+        border-right: none;
+      }
+      .instructors .col {
+        flex: 0 0 100%;
+        margin-right: 20px;
+      }
+      .instructors .row {
+        margin-right: 15px;
+      }
+      .contact .container {
+        flex-direction: column;
+      } 
+      .contact  .right  h4 {
+        font-size: 20px;
+        margin-right: 30px;
+        margin-top: 20px;
+      }
+      .contact .right p {
+        margin: 30px 0;
+      }
+      footer  .container .sub {
+        flex-direction: column;
+        width: 100vw;
+      }
+      footer .container .sub h4 {
+        font-size: 20px;
+        text-align: center;
+      }
+      footer .container .sub p {
+        text-align: center;
+      }
+      footer .container input {
+        border-radius: 10px;
+      }
+      footer .container .sub-right button {
+        transform: translateX(25vw);
+        margin-top: 20px;
+        border-radius: 10px;
+      }
+      footer .link .link-left,
+      footer .link {
+        flex-direction: column;
+      }
+      footer .link .link-right{
+        padding-left:  0;
+      }
+      #myBtn {
+        right: 40px;
+      }
+    }
