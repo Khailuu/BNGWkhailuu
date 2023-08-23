@@ -1430,8 +1430,9 @@ footer .link .link-right a {
   }
   .started .row-up,
   .started .row-bottom {
-    margin-left: 0 auto;
+    margin-left: 16px;
   }
+
 
   .started .row-bottom .item-up p {
     color: #fff;
@@ -1576,13 +1577,14 @@ footer .link .link-right a {
   }
   footer .container input {
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 8px;
   }
   footer .container .sub-right button {
     transform: translateX(25vw);
     margin-top: 20px;
     border-radius: 10px;
-    margin-left: 18px;
+    margin-left: 3px;
+  
 
   }
   footer .link .link-left,
@@ -1677,7 +1679,7 @@ footer .link .link-right a {
   }
   .started .row-up,
   .started .row-bottom {
-    margin-left: 18px;
+    margin-left: 16px;
   }
 
   .started .row-bottom .item-up p {
