@@ -1540,6 +1540,9 @@ footer .link .link-right a {
   .number .item p {
     font-size: 12px;
   }
+  .number .main .item:last-child {
+    padding-right: 0;
+  } 
   .number .main .item {
     border-right: none;
   }
@@ -1565,18 +1568,22 @@ footer .link .link-right a {
 
   footer .container .sub {
     flex-direction: column;
-    width: 100vw;
+    /* width: 100vw; */
   }
   footer .container .sub h4 {
-    font-size: 20px;
+    font-size: 19px;
+    margin-bottom: 20px;
     text-align: center;
+    display: inline;
   }
   footer .container .sub p {
     text-align: center;
+    display: none;
   }
   footer .container input {
     border-radius: 10px;
     margin-left: 8px;
+    margin-top: 20px;
   }
   footer .container .sub-right button {
     transform: translateX(25vw);
@@ -1784,6 +1791,9 @@ footer .link .link-right a {
   .number .item p {
     font-size: 12px;
   }
+  .number .main .item:last-child {
+    padding-right: 0;
+  } 
   .number .main .item {
     border-right: none;
   }
@@ -1811,11 +1821,13 @@ footer .link .link-right a {
   }
   footer .container .sub h4 {
     font-size: 19px;
-    display: inline-block;
+    display: inline;
     text-align: center;
+    margin-bottom: 20px;
   }
   footer .container .sub p {
     text-align: center;
+    display: none;
   }
   footer .container input {
     border-radius: 10px;
