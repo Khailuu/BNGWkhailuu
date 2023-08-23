@@ -1566,7 +1566,7 @@ footer .link .link-right a {
     border-radius: 5px;
     width: 150px;
     border: 1px solid #707070;
-    display: none;
+    /* display: none; */
   }
   .header-bottom .info-right ul a {
     float: right;
@@ -1806,6 +1806,7 @@ footer .link .link-right a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    
   }
   nav {
     width: 100%;

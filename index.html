@@ -85,8 +85,8 @@
           <h1>K-Edu</h1>
         </div>
         <div class="info-right">
-          <i class="fa-solid fa-bars"></i>
-          <ul>
+          <i id="btn-menu" class="fa-solid fa-bars"></i>
+          <ul id="menu">
             <li class="Upper"><a href="./index.html">Home</a></li>
             <li class="Upper"><a href="./about.html">About Us</a></li>
             <li class="Upper"><a href="./course.html">Course</a></li>
@@ -870,6 +870,23 @@
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
+    </script>
+    <!-- click button menu  -->
+    <script>
+      var menu = document.getElementById('menu');
+      // console.log(menu); 
+      var btnMenu = document.getElementById('btn-menu');
+      btnMenu.onclick = function() {
+        if(menu.style.display == 'none'){
+        menu.style.display = 'block';
+        menu.style.transition = '1s';
+        } else {
+          menu.style.display ='none';
+        menu.style.transition = '0.5s';
+
+        }
+      }
+      
     </script>
   </body>
 </html>
