@@ -1343,7 +1343,7 @@ footer .link .link-right a {
     border-radius: 50%;
   }
   .choice .content {
-    padding-left: 350px;
+    padding-left: 22vw;
   }
   .choice .item-respon {
     display: none;
@@ -1769,7 +1769,7 @@ footer .link .link-right a {
     border-radius: 50%;
   }
   .choice .content {
-    padding-left: 50vw;
+    padding-left: 22vw;
   }
 
   .choice .item-respon {
@@ -1810,7 +1810,8 @@ footer .link .link-right a {
     width: 100vw;
   }
   footer .container .sub h4 {
-    font-size: 20px;
+    font-size: 19px;
+    display: inline-block;
     text-align: center;
   }
   footer .container .sub p {
