@@ -460,7 +460,7 @@ footer .link .link-right a {
   text-align: center;
   line-height: 30px;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .card .item {
