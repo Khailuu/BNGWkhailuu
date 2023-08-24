@@ -1025,6 +1025,19 @@ footer .link .link-right a {
     float: right;
     padding: 5px 10px;
   }
+  .mission .row {
+    flex-direction: column;
+  }
+  .mission h3 {
+    text-align: center;
+  }
+  .mission p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mission {
+    padding-bottom: 270px;  
+  }
   .slide {
     background-size: cover;
     width: 100vw;
@@ -1200,6 +1213,25 @@ footer .link .link-right a {
   .contact .right p {
     margin: 30px 0;
   }
+  .education {
+    margin-bottom: 60px;
+  }
+  .education .row {
+    flex-direction: column;
+    display: block;
+  }
+  .education .row h4 {
+    text-align: center;
+  }
+  .education .row p {
+    text-align: center;
+  }
+  .education ul li {
+    text-align: center; 
+  }
+  .education .row img {
+    margin-top: 30px;
+  }
   footer .container .sub {
     flex-direction: column;
     width: 100vw;
@@ -1374,6 +1406,19 @@ footer .link .link-right a {
   }
   .started .container .row-bottom {
     display: none;
+  }
+  .mission .row {
+    flex-direction: column;
+  }
+  .mission h3 {
+    text-align: center;
+  }
+  .mission p {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .mission {
+    padding-bottom: 270px;  
   }
   footer .link .link-right {
     border-left: none;
