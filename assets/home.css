@@ -1148,17 +1148,20 @@ footer .link .link-right a {
   .header-bottom .info-right ul {
     /* display: none; */
     position: absolute;
-    display: inline-block;
-    right: 0;
+    display: block;
+    right: -70px;
     background-color: #fff;
     border-radius: 5px;
-    width: 150px;
+    width: 100vw;
     border: 1px solid #707070;
+    margin-top: 10px;
     display: none;
   }
   .header-bottom .info-right ul a {
-    float: right;
-    padding: 5px 10px;
+    float: left;
+    padding: 10px 10px;
+    display: block;
+    width: 100vw;
   }
 
   .card .container {
