@@ -478,6 +478,11 @@ footer .link .link-right a {
     margin: 0 -2px;
   }
 
+  .started .card-item .item {
+    width: 302px;
+    margin: 0 -2px;
+  }
+
   .started .row-up .item-up {
     background-image: url(./img/c1.jpg);
     height: 200px;

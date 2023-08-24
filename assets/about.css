@@ -755,162 +755,7 @@ footer .link .link-right a {
     display: block;
     width: 100vw;
   }
-  .card .container {
-    /* flex-direction: column ; */
-  }
-  .card .item {
-    width: 150px;
-    height: 130px;
-    padding: 30px 2px;
-
-    /* flex: 0 0 50%; */
-  }
-  .card .item .fa,
-  .card .item .fa-solid {
-    font-size: 25px;
-  }
-  .card .item h5 {
-    font-size: 16px;
-  }
-  .started .item-respon {
-    display: none;
-  }
-  .started .card-item .item {
-    width: 302px;
-    margin: 0px 22px;
-  }
-
-  .started .row-up .item-up {
-    background-image: url(./img/c1.jpg);
-    height: 200px;
-    width: 300px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .started .row-bottom .item-up p {
-    color: #fff;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 16px;
-    padding: 5px 7px;
-    border-radius: 5px;
-  }
-  .started .row-bottom .item-up p:first-child {
-    background-color: #ffa100;
-  }
-  .started .row-bottom .item-up p:last-child {
-    background-color: #1dc295;
-  }
-  .started .button {
-    text-align: center;
-    margin-bottom: 80px;
-  }
-  .started .button button:hover {
-    background-color: #0d369f;
-    transition: 0.5s;
-  }
-  .started .button button {
-    background-color: #ff6e65;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s;
-  }
-  .started .row-up .item-up p {
-    color: #fff;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 16px;
-    padding: 5px 7px;
-    border-radius: 5px;
-  }
-  .started .row-up .item-up p:first-child {
-    background-color: #ffa100;
-  }
-  .started .row-up .item-up p:last-child {
-    background-color: #1dc295;
-  }
-  .item .price {
-    text-align: center;
-    background-color: #ff6e65;
-    display: inline-block;
-    line-height: 40px;
-    color: #fff;
-    height: 40px;
-    width: 40px;
-    font-size: 14px;
-    border-radius: 50%;
-    margin-top: -50%;
-    margin-left: 230px;
-  }
-  .started .course {
-    display: flex;
-    width: 270px;
-    /* padding:0 20px; */
-    margin-top: 10px;
-    margin-left: 15px;
-    justify-content: space-between;
-    font-size: 16px;
-  }
-  .started .course i {
-    color: #ff6e65;
-  }
-  .started .main h5 {
-    font-size: 16px;
-    margin-top: 20px;
-    margin-left: 15px;
-  }
-  .started .main p {
-    font-size: 15px;
-    margin-left: 15px;
-    width: 280px;
-    color: #707070;
-  }
-
-  .started .item-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 270px;
-    margin-left: 15px;
-    padding-top: 8px;
-    padding-bottom: 20px;
-    border-top: 1px solid #eee;
-  }
-  .started .item-footer .fa-star {
-    color: #ffc949;
-  }
-  .started .item-footer a {
-    color: #ff6e65;
-    transition: all 0.5s;
-    margin-right: 10px;
-  }
-  .started .item-footer a:hover {
-    text-decoration: none;
-    color: #0d369f;
-    transition: all 0.5s;
-  }
-  .started .row-bottom {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 80px;
-  }
-  .started .row-bottom .item-up {
-    background-image: url(./img/c1.jpg);
-    height: 220px;
-    width: 300px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+  
   .choice .item {
     width: 200px;
     height: 160px;
@@ -941,6 +786,10 @@ footer .link .link-right a {
   }
   .choice .item-respon {
     display: none;
+  }
+  .instructors .col {
+    flex: 0 0 42%;
+    flex-direction: column;
   }
 }
 
@@ -981,43 +830,25 @@ footer .link .link-right a {
     display: block;
     width: 100vw;
   }
-  .slide {
-    background-size: cover;
-    width: 100vw;
-    background-position: center center;
-    height: 300px;
-  }
-
-  .slide-content {
-    width: 700px;
-    position: relative;
-    top: 25%;
-    padding-left: 20px;
-    /* font-size: 20px; */
-    display: none;
-  }
-  .card .container {
+  .mission .row {
     flex-direction: column;
-    margin-top: 20px;
-    padding-left: 0;
-    /* margin-right:22px; */
   }
-  .card .item .item1 {
+  .mission h3 {
+    text-align: center;
   }
-  .card .item {
-    width: 150px;
-    height: 150px;
-    padding: 30px 2px;
-    width: 90vw;
-    margin-bottom: 15px;
-    margin-left: 5vw;
+  .mission p {
+    text-align: center;
+    margin-bottom: 30px;
   }
-  .card .item .fa,
-  .card .item .fa-solid {
-    font-size: 40px;
+  .mission {
+    padding-bottom: 270px;  
   }
-  .card .item h5 {
-    font-size: 20px;
+  .card .row {
+    flex-direction: column;
+    display: block;
+  }
+  .card .col p {
+    padding-bottom: 30px;
   }
   .studious .container .info-respon {
     display: none;
@@ -1061,21 +892,24 @@ footer .link .link-right a {
   .choice .item-respon {
     display: none;
   }
-  .number {
-    margin-left: 20px;
+  .education {
+    margin-bottom: 60px;
   }
-  .number .item h4 {
-    font-size: 30px;
+  .education .row {
+    flex-direction: column;
+    display: block;
   }
-  .number .item p {
-    font-size: 12px;
+  .education .row h4 {
+    text-align: center;
   }
-  .number .main .item:last-child {
-    padding-right: 0;
-    padding-right: 30px;
+  .education .row p {
+    text-align: center;
   }
-  .number .main .item {
-    border-right: none;
+  .education ul li {
+    text-align: center; 
+  }
+  .education .row img {
+    margin-top: 30px;
   }
   .instructors .col {
     flex: 0 0 100%;
@@ -1095,6 +929,23 @@ footer .link .link-right a {
   .contact .right p {
     margin: 30px 0;
     padding-right: 50px;
+  }
+ 
+  .number {
+    margin-left: 20px;
+  }
+  .number .item h4 {
+    font-size: 30px;
+  }
+  .number .item p {
+    font-size: 12px;
+  }
+  .number .main .item:last-child {
+    padding-right: 0;
+    padding-right: 30px;
+  }
+  .number .main .item {
+    border-right: none;
   }
 
   footer .container .sub {
