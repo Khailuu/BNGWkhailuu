@@ -1538,6 +1538,9 @@ footer .link .link-right a {
   footer .link .link-right {
     padding-left: 0;
   }
+  footer .link .link-right {
+    border-left: none;
+  }
   #myBtn {
     right: 40px;
   }
@@ -1904,6 +1907,9 @@ footer .link .link-right a {
     flex: 0 0 100%;
     margin: 10px 0;
   }
+  footer .link .link-right {
+    border-left: none;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 767px) {
   .started .container .title h3 {
@@ -1920,5 +1926,8 @@ footer .link .link-right a {
   }
   .started .container .row-bottom {
     display: none;
+  }
+  footer .link .link-right {
+    border-left: none;
   }
 }

@@ -1091,6 +1091,9 @@ footer .link .link-right a {
   #myBtn {
     right: 40px;
   }
+  footer .link .link-right {
+    border-left: none;
+  }
 }
 /* tu bi ko tinh yeu  */
 /* tu bi ko tinh yeu  */
@@ -1334,6 +1337,9 @@ footer .link .link-right a {
   #myBtn {
     right: 40px;
   }
+  footer .link .link-right {
+    border-left: none;
+  }
 }
 @media screen and (max-width: 576px) {
   .header-info {
@@ -1454,6 +1460,9 @@ footer .link .link-right a {
     flex: 0 0 100%;
     margin: 10px 0;
   }
+  footer .link .link-right {
+    border-left: none;
+  }
 }
 @media screen and (min-width: 577px) and (max-width: 767px) {
   .started .container .title h3 {
@@ -1470,5 +1479,8 @@ footer .link .link-right a {
   }
   .started .container .row-bottom {
     display: none;
+  }
+  footer .link .link-right {
+    border-left: none;
   }
 }
