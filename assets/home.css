@@ -213,7 +213,7 @@ padding: 5px 15px;
   border-radius: 20px;
   background: transparent;
   border: 2px solid #eee;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(100px);
   display: flex;
   justify-content: center;
   align-items: center;
