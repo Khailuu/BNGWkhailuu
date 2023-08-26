@@ -5,7 +5,32 @@ const btnPopup = document.querySelector('.btnLogin-popup');
 const btnClose = document.querySelector('.icon-close');
 const btnMenu = document.getElementById('btn-menu');
 const popUpMenu = document.querySelector('.popup-menu');
-const closeMenu = document.querySelector('.active-menu');
+const closeMenu = document.querySelector('.icon-close-menu');
+
+if(btnMenu) {
+    btnMenu.addEventListener('click', ()=> {
+        closeMenu.classList.add('active-close');
+    })
+}
+
+if(btnMenu) {
+    btnMenu.addEventListener('click', ()=> {
+        btnMenu.classList.add('active-hidden');
+        closeMenu.classList.remove('display-bars');
+
+    })
+}
+
+if(closeMenu) {
+    closeMenu.addEventListener('click', ()=> {
+        popUpMenu.classList.remove('active-menu');
+        btnMenu.classList.remove('active-hidden');
+        closeMenu.classList.remove('active-close');
+        closeMenu.classList.add('display-bars');
+
+    })
+}
+
 if (btnMenu) {
     btnMenu.addEventListener('click', ()=> {
         popUpMenu.classList.add('active-menu');
