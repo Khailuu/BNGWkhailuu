@@ -17,7 +17,6 @@ if(btnMenu) {
     btnMenu.addEventListener('click', ()=> {
         btnMenu.classList.add('active-hidden');
         closeMenu.classList.remove('display-bars');
-
     })
 }
 
@@ -30,6 +29,8 @@ if(closeMenu) {
 
     })
 }
+
+
 
 if (btnMenu) {
     btnMenu.addEventListener('click', ()=> {
@@ -46,12 +47,15 @@ if (btnMenu) {
 if (btnPopup) {
     btnPopup.addEventListener('click', ()=> {
         popUpMenu.classList.remove('active-menu');
+        btnMenu.classList.remove('active-hidden');
+
     })
 }
 
 if(btnPopup){
     btnPopup.addEventListener('click', ()=> {
         wrapper.classList.add('active-popup');
+        closeMenu.classList.remove('active-close');
        
     })
 }
