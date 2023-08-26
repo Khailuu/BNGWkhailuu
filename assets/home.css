@@ -211,7 +211,7 @@ body {
   background: transparent;
   border: 2px solid #eee;
   backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(100px);
   display: flex;
   justify-content: center;
   align-items: center;
