@@ -172,6 +172,9 @@ body {
   }
   .header-bottom .btnLogin-popup a {
   }
+  .header-bottom .info-right .popup-menu.active-menu {
+    display: block;
+  }
   .wrapper .register {
     position: absolute;
     transform: translateX(400px);
@@ -1138,6 +1141,29 @@ footer .link .link-right a {
     display: block;
     width: 100vw;
   }
+  .header-bottom button {
+    border: none;
+    background-color: #fff;
+    padding-left: 10px;
+    margin-left: 0;
+    padding-top: 15px;
+    width: 100vw;
+    text-align: none;
+    transition: all .5s;
+    
+  }
+  .header-bottom button:hover {
+    color: red;
+    transition: all .5s;
+    background: none;
+  }
+  .header-bottom .info-right ul li a{
+    text-align: center;
+  }
+  .header-bottom .info-right ul .Upper a{
+    margin-left: 0;
+
+  }
   .slide {
     background-size: cover;
     width: 100vw;
@@ -1330,6 +1356,29 @@ footer .link .link-right a {
   .header-bottom .info-right ul a {
     float: right;
     padding: 5px 10px;
+  }
+  .header-bottom button {
+    border: none;
+    background-color: #fff;
+    padding-left: 10px;
+    margin-left: 0;
+    padding-top: 15px;
+    width: 100vw;
+    text-align: none;
+    transition: all .5s;
+    
+  }
+  .header-bottom button:hover {
+    color: red;
+    transition: all .5s;
+    background: none;
+  }
+  .header-bottom .info-right ul li a{
+    text-align: center;
+  }
+  .header-bottom .info-right ul .Upper a{
+    margin-left: 0;
+
   }
   .slide {
     background-size: cover;
