@@ -1930,6 +1930,9 @@ footer .link .link-right a {
     display: block;
     width: 100vw;
   }
+  .wrapper{
+    background-color: #fff ;
+  }
   .slide {
     background-size: cover;
     width: 100vw;
@@ -2182,6 +2185,9 @@ footer .link .link-right a {
   nav {
     width: 100%;
   }
+  .wrapper{
+    background-color: #fff ;
+  }
 
   .input-search {
     text-align: center;
@@ -2278,6 +2284,9 @@ footer .link .link-right a {
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
+  .wrapper{
+    background-color: #fff ;
+  }
   .started .container .title h3 {
     font-size: 50px;
   }

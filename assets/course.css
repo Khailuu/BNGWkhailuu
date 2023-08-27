@@ -1429,6 +1429,9 @@ footer .link .link-right a {
   .header-bottom .icon-close-menu.display-bars {
     display: none;
   }
+  .wrapper{
+    background-color: #fff ;
+  }
   .slide {
     background-size: cover;
     width: 100vw;
@@ -1676,6 +1679,9 @@ footer .link .link-right a {
   .input-search form {
     margin: auto;
   }
+  .wrapper{
+    background-color: #fff ;
+  }
   .slide {
     background-position: right;
     background-size: cover;
@@ -1781,5 +1787,8 @@ footer .link .link-right a {
   }
   footer .link .link-right {
     border-left: none;
+  }
+  .wrapper{
+    background-color: #fff ;
   }
 }

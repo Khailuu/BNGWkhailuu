@@ -1090,6 +1090,9 @@ footer .link .link-right a {
   .header-bottom .icon-close-menu.display-bars {
     display: none;
   }
+  .wrapper{
+    background-color: #fff ;
+  }
   .mission .row {
     flex-direction: column;
   }
@@ -1319,6 +1322,9 @@ footer .link .link-right a {
   }
   .header-bottom .icon-close-menu.display-bars {
     display: none;
+  }
+  .wrapper{
+    background-color: #fff ;
   }
   .mission .row {
     flex-direction: column;
@@ -1593,6 +1599,9 @@ footer .link .link-right a {
     width: 100%;
   }
 
+  .wrapper{
+    background-color: #fff ;
+  }
   .input-search {
     text-align: center;
   }
@@ -1717,5 +1726,8 @@ footer .link .link-right a {
   }
   footer .link .link-right {
     border-left: none;
+  }
+  .wrapper{
+    background-color: #fff ;
   }
 }
