@@ -6,7 +6,6 @@ const btnClose = document.querySelector('.icon-close');
 const btnMenu = document.getElementById('btn-menu');
 const popUpMenu = document.querySelector('.popup-menu');
 const closeMenu = document.querySelector('.icon-close-menu');
-
 if(btnMenu) {
     btnMenu.addEventListener('click', ()=> {
         closeMenu.classList.add('active-close');
@@ -63,6 +62,7 @@ if(btnPopup){
 if(btnClose) {
     btnClose.addEventListener('click', ()=> {
         wrapper.classList.remove('active-popup');
+        
        
     })
  

@@ -356,6 +356,9 @@ body {
   text-decoration: underline;
   transition: all 0.5s;
 }
+.wrapper .icon-close{
+  z-index: 1000;
+}
 .inner {
   background-image: url(./img/bg4.jpg);
   background-repeat: no-repeat;
