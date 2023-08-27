@@ -1428,6 +1428,8 @@ footer .link .link-right a {
     margin-top: 20px;
     padding-left: 0;
     /* margin-right:22px; */
+    align-items: center;
+    padding-right: 0;
   }
 
   .card .item {
@@ -1436,7 +1438,6 @@ footer .link .link-right a {
     padding: 30px 2px;
     width: 90vw;
     margin-bottom: 15px;
-    margin-left: 5vw;
   }
   .card .item .fa,
   .card .item .fa-solid {
@@ -1709,6 +1710,8 @@ footer .link .link-right a {
     margin-top: 20px;
     padding-left: 0;
     /* margin-right:22px; */
+    align-items: center;
+    padding-right: 0;
   }
 
   .card .item {
@@ -1717,7 +1720,7 @@ footer .link .link-right a {
     padding: 30px 2px;
     width: 90vw;
     margin-bottom: 15px;
-    margin-left: 5vw;
+    
   }
   .card .item .fa,
   .card .item .fa-solid {
@@ -1953,6 +1956,8 @@ footer .link .link-right a {
     margin-top: 20px;
     padding-left: 0;
     /* margin-right:22px; */
+    align-items: center;
+    padding-right: 0;
   }
 
   .card .item {
@@ -1961,7 +1966,7 @@ footer .link .link-right a {
     padding: 30px 2px;
     width: 90vw;
     margin-bottom: 15px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
   }
   .card .item .fa,
   .card .item .fa-solid {
