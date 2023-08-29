@@ -450,7 +450,7 @@ body {
 .card .col {
   background-color: #fff;
   box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
-  margin-right: 30px;
+  margin: 0 15px;
 }
 .card .col .green {
   margin-top: 30px;
@@ -1634,6 +1634,9 @@ footer .link .link-right a {
   .card .container .content .item a {
     font-size: 30px;
   }
+  .card .col {
+    margin: 0;
+  }
 
   .started .container .title h3 {
     font-size: 50px;
@@ -1733,5 +1736,8 @@ footer .link .link-right a {
   }
   .wrapper{
     background-color: #fff ;
+  }
+  .card .col {
+    margin: 0;
   }
 }

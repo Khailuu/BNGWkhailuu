@@ -460,6 +460,7 @@ body {
   margin-top: -80px;
   margin-bottom: 80px;
   z-index: 1;
+  padding: 0;
 }
 .card .item {
   width: 258px;
@@ -1161,6 +1162,9 @@ footer .link .link-right a {
   }
   .card .item h5 {
     font-size: 15px;
+  }
+  .card .container {
+    padding: 0 20px;
   }
   .started .card-item .item {
     width: 302px;
