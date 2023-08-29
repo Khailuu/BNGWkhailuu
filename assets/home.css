@@ -456,7 +456,7 @@ body {
 }
 .card .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: -80px;
   margin-bottom: 80px;
   z-index: 1;
@@ -1396,11 +1396,13 @@ footer .link .link-right a {
     margin-top: 10px;
     display: none;
   }
-  .header-bottom .info-right ul a {
-    float: left;
+
+  .header-bottom .info-right ul .Upper a{
     padding: 10px 10px;
     display: block;
     width: 100vw;
+    text-align: center;
+    margin: 0;
   }
   .header-bottom .icon-close-menu.active-close {
     height: 42px;
@@ -1415,6 +1417,16 @@ footer .link .link-right a {
   }
   .header-bottom .icon-close-menu.display-bars {
     display: none;
+  }
+  .header-bottom button {
+    border: none;
+    background-color: #fff;
+    
+    margin-left: 0;
+    padding-top: 15px;
+    width: 100vw;
+    /* text-align: none; */
+    transition: all 0.5s;
   }
   .card .item {
     width: 150px;
