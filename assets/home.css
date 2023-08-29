@@ -418,6 +418,7 @@ body {
   margin-bottom: 50px;
 }
 .slide-content button {
+  background-color: #fff;
   border: none;
   padding: 15px 25px;
   border-radius: 5px;
