@@ -353,7 +353,7 @@ body {
   text-decoration: none;
   margin-left: 5px;
   transition: all 0.5s;
-}
+} 
 .wrapper .login-register a:hover {
   text-decoration: underline;
   transition: all 0.5s;
@@ -491,9 +491,10 @@ body {
 .instructors {
   margin-bottom: 100px;
 }
-.instructors .col {
-  flex: 0 0 22%;
+.instructors .row {
+ 
 }
+
 .instructors .title h3 {
   text-align: center;
   font-size: 40px;
@@ -526,7 +527,7 @@ body {
   text-align: center;
   background-color: #fff;
   box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
-  margin: 0 24px;
+  margin: 0 15px;
   /* flex: 0 0 calc(25% - 30px); */
   max-width: 100%;
   border-radius: 5px;
