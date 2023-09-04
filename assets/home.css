@@ -111,34 +111,51 @@ body {
 }
 .header-bottom .info-right ul li {
   list-style-type: none;
+  overflow: hidden;
+  margin: auto 10px;
+
 }
 
 .header-bottom .info-right ul li a {
   position: relative;
 }
-.header-bottom .info-right ul li a::after {
-  content: "";
+
+.header-bottom .info-right ul .rotate a:after {
+  content: " ";
   position: absolute;
   left: 0;
-  bottom: -6px;
-  color: #000;
+  bottom: -2px;
+  background-color: #000;
   width: 100%;
   height: 2px;
+  transform: translateX(-100%);
+  transition: all 0.5s;
 }
-.header-bottom .info-right ul li a:hover {
+.header-bottom .info-right ul .rotate a:hover::after{
+  transition: all 0.5s;
+  transform: translateX(0);
+}
+/* .header-bottom .info-right ul li a:hover {
   color: red;
   text-decoration: none;
   transition: 0.3s;
-}
+
+} */
 /* .header-bottom .info-right ul li:last-child a:hover {
   color: white;
   text-decoration: none;
   transition: 0.3s;
 } */
+.header-bottom img {
+  width: 41px;
+  height: 29px;
+  line-height: 40px;
+  transform: translateY(17%);
+}
 .header-bottom .info-right ul .Upper a {
   color: #000;
   font-weight: bold;
-  margin: auto 10px;
+  /* margin: auto 0; */
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -465,7 +482,14 @@ body {
 .card .item {
   width: 258px;
   height: 200px;
+  /* transition: all s; */
+
 }
+.card .item:hover .fa,
+  .card .item:hover .fa-solid {
+    transform: rotateY(360deg);
+    transition: all 2s;
+  }
 .card .item1 {
   background-color: #037ef3;
   text-align: center;
@@ -1113,6 +1137,9 @@ footer .link {
   padding-left: 30px;
   /* padding-bottom: 80px; */
 }
+footer .link h6 {
+  text-transform: uppercase;
+}
 footer .link .link-left {
   text-align: left;
   flex: 0 0 60%;
@@ -1150,7 +1177,7 @@ footer .link .link-right a {
   line-height: 30px;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .card .item {
