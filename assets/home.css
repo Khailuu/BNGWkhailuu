@@ -135,17 +135,7 @@ body {
   transition: all 0.5s;
   transform: translateX(0);
 }
-/* .header-bottom .info-right ul li a:hover {
-  color: red;
-  text-decoration: none;
-  transition: 0.3s;
 
-} */
-/* .header-bottom .info-right ul li:last-child a:hover {
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-} */
 .header-bottom img {
   width: 41px;
   height: 29px;
