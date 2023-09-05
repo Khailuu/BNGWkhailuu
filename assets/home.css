@@ -326,7 +326,7 @@ body {
 }
 .wrapper .form-box {
   width: 100%;
-  padding: 40px;
+  padding: 50px;
 }
 .wrapper .input-box {
   position: relative;
@@ -337,9 +337,8 @@ body {
 }
 .wrapper .input-box label {
   position: absolute;
-  top: 5%;
+  top: -10px;
   left: 5px;
-  transform: translateY(-50%);
   font-size: 1em;
   color: #162938;
   font-weight: 500;
