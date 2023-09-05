@@ -104,7 +104,7 @@ body {
 
 .header-bottom .info-right {
   /* line-height: 66px; */
-  transform: translateY(30%);
+  transform: translateY(23%);
 }
 .header-bottom .info-right > ul {
   display: flex;
@@ -211,6 +211,48 @@ body {
   text-align: center;
   height: 50px;
   display: none;
+}
+.header-bottom .make-sub li:first-child {
+  margin-top: 5.5px;
+}
+.header-bottom form {
+  position: relative;
+}
+.header-bottom input:focus-visible {
+  border: 0.5px solid #707070;
+}
+.header-bottom input:focus-visible{
+  border: 0.5px solid #ff6e65;
+  transition: all .1s;
+}
+.header-bottom input:focus-visible{
+  outline: none;
+}
+.header-bottom input {
+  border-radius: 20px;
+  /* padding-left: 10px; */
+  border: 0.5px solid #707070;
+  color: #707070;
+  font-weight: lighter;
+  padding: 5px 10px;
+  margin: auto 10px;
+}
+.header-bottom button {
+  border: none;
+  background-color: #ccc0;
+  position: absolute;
+  right: 10px;
+  top: 17.5px;
+  transform: translateY(-50%);
+  color: #707070;
+}
+.header-bottom button:hover {
+  background-color: #ccc0;
+  color: #ff6e65;
+}
+.header-bottom button:focus {
+  box-shadow: none;
+  outline: none;
 }
 .wrapper .register {
   position: absolute;
