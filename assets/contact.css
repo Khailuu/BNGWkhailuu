@@ -125,7 +125,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -2px;
-  background-color: #000;
+  background-color: #ff6e65;
   width: 100%;
   height: 2px;
   transform: translateX(-100%);
@@ -149,7 +149,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
-
+.header-bottom .info-right ul .Upper a:hover {
+  color: #ff6e65;
+  transition: all .5s;  
+}
 .header-bottom .info-right .make-sub .sub-nav {
   position: absolute;
   background-color: #fff;

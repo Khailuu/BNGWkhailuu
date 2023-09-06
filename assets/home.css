@@ -692,7 +692,75 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.started .row-up .item-up2 {
+  background-image: url(./img/c2.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-up .item-up3 {
+  background-image: url(./img/c3.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up4 {
+  background-image: url(./img/c4.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up5 {
+  background-image: url(./img/c5.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up6 {
+  background-image: url(./img/c6.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .started .row-up .item-up p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-up .item-up2 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-up .item-up3 p {
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -705,6 +773,18 @@ body {
   background-color: #ffa100;
 }
 .started .row-up .item-up p:last-child {
+  background-color: #1dc295;
+}
+.started .row-up .item-up2 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-up .item-up2 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-up .item-up3 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-up .item-up3 p:last-child {
   background-color: #1dc295;
 }
 .item .price {
@@ -778,7 +858,7 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.started .row-bottom .item-up p {
+.started .row-bottom .item-up4 p {
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -787,10 +867,40 @@ body {
   padding: 5px 7px;
   border-radius: 5px;
 }
-.started .row-bottom .item-up p:first-child {
+.started .row-bottom .item-up5 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-bottom .item-up6 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-bottom .item-up4 p:first-child {
   background-color: #ffa100;
 }
-.started .row-bottom .item-up p:last-child {
+.started .row-bottom .item-up4 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-bottom .item-up5 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-bottom .item-up5 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-bottom .item-up6 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-bottom .item-up6 p:last-child {
   background-color: #1dc295;
 }
 .started .button {

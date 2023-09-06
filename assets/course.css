@@ -125,7 +125,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -2px;
-  background-color: #000;
+  background-color: #ff6e65;
   width: 100%;
   height: 2px;
   transform: translateX(-100%);
@@ -167,6 +167,10 @@ body {
   padding: 4px 24px;
   color: #000;
   text-decoration: none;
+}
+.header-bottom .info-right ul .Upper a:hover {
+  color: #ff6e65;
+  transition: all .5s;  
 }
 .header-bottom .info-right .make-sub .sub-nav li a:hover {
   background-color: #ccc3;
@@ -516,10 +520,40 @@ body {
   padding: 5px 7px;
   border-radius: 5px;
 }
+.started .row-up .item-up2 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-up .item-up3 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
 .started .row-up .item-up p:first-child {
   background-color: #ffa100;
 }
 .started .row-up .item-up p:last-child {
+  background-color: #1dc295;
+}
+.started .row-up .item-up2 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-up .item-up2 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-up .item-up3 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-up .item-up3 p:last-child {
   background-color: #1dc295;
 }
 .item .price {
@@ -593,7 +627,84 @@ body {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.started .row-up .item-up2 {
+  background-image: url(./img/c2.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-up .item-up3 {
+  background-image: url(./img/c3.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up4 {
+  background-image: url(./img/c4.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up5 {
+  background-image: url(./img/c5.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.started .row-bottom .item-up6 {
+  background-image: url(./img/c6.jpg);
+  height: 220px;
+  width: 350px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 .started .row-bottom .item-up p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-bottom .item-up4 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-bottom .item-up5 p {
+  color: #fff;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.started .row-bottom .item-up6 p {
   color: #fff;
   display: inline-block;
   margin-top: 10px;
@@ -606,6 +717,24 @@ body {
   background-color: #ffa100;
 }
 .started .row-bottom .item-up p:last-child {
+  background-color: #1dc295;
+}
+.started .row-bottom .item-up4 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-bottom .item-up4 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-bottom .item-up5 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-bottom .item-up5 p:last-child {
+  background-color: #1dc295;
+}
+.started .row-bottom .item-up6 p:first-child {
+  background-color: #ffa100;
+}
+.started .row-bottom .item-up6 p:last-child {
   background-color: #1dc295;
 }
 .started .button {
