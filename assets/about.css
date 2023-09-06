@@ -160,6 +160,7 @@ body {
 }
 .header-bottom .info-right .make-sub:hover .sub-nav {
   display: block;
+  top: 35px;
 }
 .header-bottom .info-right .make-sub .sub-nav li a {
   display: block;
@@ -1114,9 +1115,9 @@ footer .link .link-right a {
   }
   .header-bottom .info-right ul a {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 0;
     display: block;
-    width: 100vw;
+    width: 96vw;
   }
   .header-bottom button {
     border: none;
@@ -1132,6 +1133,18 @@ footer .link .link-right a {
     color: red;
     transition: all 0.5s;
     background: none;
+  }
+  .header-bottom button  {
+    width: 0;
+    position: absolute;
+    top: 17px;
+    right: 181px;
+    line-height: 30px;
+    padding: 0;
+  }
+  .header-bottom form {
+    display: flex;
+    justify-content: center;
   }
   .header-bottom .info-right ul li a {
     text-align: center;
