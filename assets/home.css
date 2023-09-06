@@ -113,13 +113,11 @@ body {
   list-style-type: none;
   overflow: hidden;
   margin: auto 10px;
-
 }
 
 .header-bottom .info-right ul li a {
   position: relative;
   transition: all 0.5s;
-
 }
 
 .header-bottom .info-right ul .rotate a:after {
@@ -133,11 +131,11 @@ body {
   transform: translateX(-100%);
   transition: all 0.5s;
 }
-.header-bottom .info-right ul .rotate a:hover::after{
+.header-bottom .info-right ul .rotate a:hover::after {
   transition: all 0.5s;
   transform: translateX(0);
 }
-.header-bottom .info-right ul .rotate a:hover{
+.header-bottom .info-right ul .rotate a:hover {
   color: #ff6e65;
   transition: all 0.5s;
 }
@@ -227,11 +225,11 @@ body {
 .header-bottom input:focus-visible {
   border: 0.5px solid #707070;
 }
-.header-bottom input:focus-visible{
+.header-bottom input:focus-visible {
   border: 0.5px solid #ff6e65;
-  transition: all .1s;
+  transition: all 0.1s;
 }
-.header-bottom input:focus-visible{
+.header-bottom input:focus-visible {
   outline: none;
 }
 .header-bottom input {
@@ -311,7 +309,7 @@ body {
   /* transition: none; */
 }
 /* .wrapper.active . */
-.wrapper .icon-close{
+.wrapper .icon-close {
   position: absolute;
   top: 0;
   right: 0;
@@ -370,7 +368,7 @@ body {
   line-height: 57px;
 }
 
-.wrapper .icon-close{
+.wrapper .icon-close {
   z-index: 1000;
 }
 
@@ -434,7 +432,7 @@ body {
 }
 .slide {
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -447,7 +445,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 1000px;
   background: rgba(0, 0, 0, 0.155);
 }
 .slide-1 {
@@ -519,13 +517,12 @@ body {
   width: 258px;
   height: 200px;
   /* transition: all s; */
-
 }
 .card .item:hover .fa,
-  .card .item:hover .fa-solid {
-    transform: rotateY(360deg);
-    transition: all 2s;
-  }
+.card .item:hover .fa-solid {
+  transform: rotateY(360deg);
+  transition: all 2s;
+}
 .card .item1 {
   background-color: #037ef3;
   text-align: center;
@@ -1574,7 +1571,7 @@ footer .link .link-right a {
     display: none;
   }
 
-  .header-bottom .info-right ul .Upper a{
+  .header-bottom .info-right ul .Upper a {
     padding: 10px 10px;
     display: block;
     width: 100vw;
@@ -1598,7 +1595,7 @@ footer .link .link-right a {
   .header-bottom button {
     border: none;
     background-color: #fff;
-    
+
     margin-left: 0;
     padding-top: 15px;
     width: 100vw;
@@ -1619,7 +1616,7 @@ footer .link .link-right a {
   .card .item h5 {
     font-size: 16px;
   }
-    .card .container {
+  .card .container {
     flex-direction: column;
     margin-top: 20px;
     padding-left: 0;
@@ -1834,7 +1831,7 @@ footer .link .link-right a {
     text-align: none;
     transition: all 0.5s;
   }
-  .header-bottom button  {
+  .header-bottom button {
     width: 0;
     position: absolute;
     top: 17px;
@@ -1928,7 +1925,6 @@ footer .link .link-right a {
     padding: 30px 2px;
     width: 90vw;
     margin-bottom: 15px;
-    
   }
   .card .item .fa,
   .card .item .fa-solid {
@@ -1944,7 +1940,7 @@ footer .link .link-right a {
     flex: 0 0 100%;
     max-width: 50%;
   }
-/* .started .row-bottom {
+  /* .started .row-bottom {
   display: none;
 }
 .started .row-up {
@@ -2141,8 +2137,8 @@ footer .link .link-right a {
     display: block;
     width: 100vw;
   }
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
   .slide {
     background-size: cover;
@@ -2398,8 +2394,8 @@ footer .link .link-right a {
   nav {
     width: 100%;
   }
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
 
   .input-search {
@@ -2497,8 +2493,8 @@ footer .link .link-right a {
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
   .started .container .title h3 {
     font-size: 50px;
@@ -2519,4 +2515,3 @@ footer .link .link-right a {
     border-left: none;
   }
 }
-

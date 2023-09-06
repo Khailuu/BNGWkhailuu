@@ -113,7 +113,6 @@ body {
   list-style-type: none;
   overflow: hidden;
   margin: auto 10px;
-
 }
 
 .header-bottom .info-right ul li a {
@@ -131,7 +130,7 @@ body {
   transform: translateX(-100%);
   transition: all 0.5s;
 }
-.header-bottom .info-right ul .rotate a:hover::after{
+.header-bottom .info-right ul .rotate a:hover::after {
   transition: all 0.5s;
   transform: translateX(0);
 }
@@ -170,7 +169,7 @@ body {
 }
 .header-bottom .info-right ul .Upper a:hover {
   color: #ff6e65;
-  transition: all .5s;  
+  transition: all 0.5s;
 }
 .header-bottom .info-right .make-sub .sub-nav li a:hover {
   background-color: #ccc3;
@@ -226,11 +225,11 @@ body {
 .header-bottom input:focus-visible {
   border: 0.5px solid #707070;
 }
-.header-bottom input:focus-visible{
+.header-bottom input:focus-visible {
   border: 0.5px solid #ff6e65;
-  transition: all .1s;
+  transition: all 0.1s;
 }
-.header-bottom input:focus-visible{
+.header-bottom input:focus-visible {
   outline: none;
 }
 .header-bottom input {
@@ -428,7 +427,7 @@ body {
   text-decoration: underline;
   transition: all 0.5s;
 }
-.wrapper .icon-close{
+.wrapper .icon-close {
   z-index: 1000;
 }
 .inner {
@@ -1379,7 +1378,7 @@ footer .link .link-right a {
     transition: all 0.5s;
     background: none;
   }
-  .header-bottom button  {
+  .header-bottom button {
     width: 0;
     position: absolute;
     top: 17px;
@@ -1639,8 +1638,8 @@ footer .link .link-right a {
   .header-bottom .icon-close-menu.display-bars {
     display: none;
   }
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
   .slide {
     background-size: cover;
@@ -1889,8 +1888,8 @@ footer .link .link-right a {
   .input-search form {
     margin: auto;
   }
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
   .slide {
     background-position: right;
@@ -1998,7 +1997,7 @@ footer .link .link-right a {
   footer .link .link-right {
     border-left: none;
   }
-  .wrapper{
-    background-color: #fff ;
+  .wrapper {
+    background-color: #fff;
   }
 }
