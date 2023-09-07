@@ -858,7 +858,12 @@ footer .link .link-right a {
     float: left;
     padding: 10px 10px;
     display: block;
-    width: 100vw;
+    width: 96vw;
+    text-align: center;
+  }
+  .header-bottom form {
+    display: flex;
+    justify-content: center;
   }
   .header-bottom .icon-close-menu.active-close {
     height: 42px;

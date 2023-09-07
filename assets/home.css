@@ -1585,7 +1585,7 @@ footer .link .link-right a {
   .header-bottom .info-right ul .Upper a {
     padding: 10px 10px;
     display: block;
-    width: 100vw;
+    width: 96vw;
     text-align: center;
     margin: 0;
   }
@@ -1609,9 +1609,12 @@ footer .link .link-right a {
 
     margin-left: 0;
     padding-top: 15px;
-    width: 100vw;
     /* text-align: none; */
     transition: all 0.5s;
+  }
+  .header-bottom form {
+    display: flex;
+    justify-content: center;
   }
   .card .item {
     width: 150px;
