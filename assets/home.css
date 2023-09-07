@@ -605,8 +605,14 @@ body {
 }
 .stu-card .info {
   text-align: center;
+  transition: all 0.5s;
+}
+.stu-card .info:hover {
+  box-shadow: rgba(4, 20, 69, 0.1) 0px 20px 62px;
+  transition: all 0.5s;
 }
 .stu-card i {
+  margin-top: 20px;
   padding: 15px 15px;
   border-radius: 50%;
   color: #0d369f;
