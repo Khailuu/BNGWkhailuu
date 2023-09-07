@@ -60,13 +60,18 @@ body {
   margin-bottom: 0;
 }
 .header-info .info-left a:hover {
-  color: red;
+  color: #ff6e65;
   text-decoration: none;
   transition: all 0.5s;
 }
 .info-right .fa-brands {
   color: #fff;
+  transition: all .3s;
   margin: 5px 10px;
+}
+.info-right a:hover .fa-brands{
+  color: #ff6e65;
+  transition: all .3s;
 }
 .header-bottom {
   position: sticky;
