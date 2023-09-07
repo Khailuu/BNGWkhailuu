@@ -2096,6 +2096,14 @@ footer .link .link-right a {
     text-align: none;
     transition: all 0.5s;
   }
+  .header-bottom button {
+    width: 0;
+    position: absolute;
+    top: 17px;
+    right: 140px;
+    line-height: 30px;
+    padding: 0;
+  }
   .header-bottom button:hover {
     color: red;
     transition: all 0.5s;
@@ -2144,9 +2152,9 @@ footer .link .link-right a {
   }
   .header-bottom .info-right ul a {
     float: left;
-    padding: 10px 10px;
+    padding: 10px 0;
     display: block;
-    width: 100vw;
+    width: 96vw;
   }
   .wrapper {
     background-color: #fff;
