@@ -430,6 +430,9 @@ body {
   text-decoration: underline;
   transition: all 0.5s;
 }
+.wrapper #checkbox:hover {
+  cursor: pointer;
+}
 .slider {
   display: block;
   position: relative;
@@ -693,7 +696,7 @@ body {
 .started .row-up .item-up {
   background-image: url(./img/c1.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -703,7 +706,7 @@ body {
 .started .row-up .item-up2 {
   background-image: url(./img/c2.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -713,7 +716,7 @@ body {
 .started .row-up .item-up3 {
   background-image: url(./img/c3.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -723,7 +726,7 @@ body {
 .started .row-bottom .item-up4 {
   background-image: url(./img/c4.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -733,7 +736,7 @@ body {
 .started .row-bottom .item-up5 {
   background-image: url(./img/c5.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -743,7 +746,7 @@ body {
 .started .row-bottom .item-up6 {
   background-image: url(./img/c6.jpg);
   height: 220px;
-  width: 350px;
+  width: 349px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1350,17 +1353,32 @@ footer .link .link-right a {
   .started .card-item .item {
     width: 302px;
     margin: 0 -2px;
+    height: 420px;
   }
 
   .started .row-up .item-up {
-    background-image: url(./img/c1.jpg);
     height: 200px;
     width: 300px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  }
+  .started .row-up .item-up2 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-up .item-up3 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up4 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up5 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up6 {
+    height: 200px;
+    width: 300px;
   }
   .started .row-bottom .item-up p {
     color: #fff;
@@ -1473,16 +1491,8 @@ footer .link .link-right a {
     margin-top: 50px;
     margin-bottom: 80px;
   }
-  .started .row-bottom .item-up {
-    background-image: url(./img/c1.jpg);
-    height: 220px;
-    width: 300px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+
+  
   .choice .item {
     width: 200px;
     height: 160px;
@@ -1659,17 +1669,32 @@ footer .link .link-right a {
   .started .card-item .item {
     width: 302px;
     margin: 0px 22px;
+    height: 420px;
   }
 
   .started .row-up .item-up {
-    background-image: url(./img/c1.jpg);
     height: 200px;
     width: 300px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  }
+  .started .row-up .item-up2 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-up .item-up3 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up4 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up5 {
+    height: 200px;
+    width: 300px;
+  }
+  .started .row-bottom .item-up6 {
+    height: 200px;
+    width: 300px;
   }
   .started .row-bottom .item-up p {
     color: #fff;
